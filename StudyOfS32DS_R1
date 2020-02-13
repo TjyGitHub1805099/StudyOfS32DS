@@ -7,4 +7,21 @@
 	1.4 copy platformCfg 
 		copy platformCfg folder to SDK\platform
 	1.5 set optimization -O2
+
+2.Platform management
+	2.1 CPU Clock
+		initial sys clock , run mode and task create at main.c
+	2.2 SYS Task
+		2.2.1 Empty task
+			init MCU Peripheral and app data
+		2.2.2 APP task
+			after 2.2.1 active other task
+	
+3.Code merge
+	3.1 copy MCU Peripheral
+		UART\IIC\SPI\TIMER
+	3.2 build
+		no error and warning
+
+
 	
