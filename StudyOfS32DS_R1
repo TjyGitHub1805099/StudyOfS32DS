@@ -1,1 +1,10 @@
 >>StudyOfS32DS_R1
+1.Pricessor Expert->show view
+	1.1	copy used components
+	1.2	copy OSs
+		copy OSAL folder to SDK
+	1.3 copy rtos.c to APP folder
+	1.4 copy platformCfg 
+		copy platformCfg folder to SDK\platform
+	1.5 set optimization -O2
+	
