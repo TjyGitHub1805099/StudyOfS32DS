@@ -23,5 +23,10 @@
 	3.2 build
 		no error and warning
 
+Properties
+	C/C++ Build
+		Settings
+			Build Artifact -> name属性设置成 app (用于生成.args .elf .map .bin时的名字)
+
 
 	
